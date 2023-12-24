@@ -71,7 +71,7 @@ const Team = () => {
   return (
     <>
     <div className="TeammemberHeading">TEAM MEMBERS</div>
-      <div className="container">
+      <div className="Teamcontainer">
         {TeamMember.map((member, index) => (
           <div className="card" key={index}>
             <div className="content">

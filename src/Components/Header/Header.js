@@ -75,13 +75,15 @@ const Header = () => {
             <div className="line"></div>
             <div className="line"></div>
           </div>
+          <Link to='/'>
           <div className="jscop" id="jscop">
             JSCOP
           </div>
+          </Link>
           <div
             className={`navbar-items ${isMobileMenuOpen ? "mobilemenu" : ""}`}
           >
-            <a onClick={closeMobileMenu}>
+            <a onClick={closeMobileMenu} href='#'>
               <Link to="/">Home</Link>
             </a>
             <a onClick={closeMobileMenu}>

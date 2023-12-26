@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom'
 import './Homepage.css'
 import Event from '../Events/Event.js'
 import Timeline from '../Timeline/Timeline.js'
+import Spline from "@splinetool/react-spline";
+
 
 const Homepage = () => {
   return (
     <div className='home'>
-      <div>YHA KOI BADHIYA SA BACKGROUND KE SATH WELCOME MESSAGE HOGA</div>
+      <Spline scene="https://prod.spline.design/MWQhFEIRqorU7kCr/scene.splinecode" />
       <Event />
       <Timeline />
       <div>YHA KUCH IMAGES LAGA DENGE 3 SE 4 FROM TEAM MEMBERS</div>
